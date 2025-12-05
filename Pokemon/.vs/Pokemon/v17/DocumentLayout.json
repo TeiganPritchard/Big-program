@@ -1,34 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\",
+  "WorkspaceRootPath": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|c:\\users\\ethan\\documents\\github\\big-program\\pokemon\\pokemon\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\pokemon\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\pokemon\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|c:\\users\\teiga\\onedrive - durham college\\documents\\big-program\\pokemon\\pokemon\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\pokemon\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\pokemon\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|c:\\users\\teiga\\onedrive - durham college\\documents\\big-program\\pokemon\\pokemon\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\pokemon\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Pokemon||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|c:\\users\\ethan\\documents\\github\\big-program\\pokemon\\pokemon\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|c:\\users\\ethan\\documents\\github\\big-program\\pokemon\\pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|c:\\users\\ethan\\documents\\github\\big-program\\pokemon\\pokemon\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,100 +41,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Move.cs",
+              "RelativeDocumentMoniker": "Pokemon\\Move.cs",
+              "ToolTip": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Move.cs",
+              "RelativeToolTip": "Pokemon\\Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:33:38.157Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pokemon",
+              "DocumentMoniker": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Pokemon.csproj",
+              "RelativeDocumentMoniker": "Pokemon\\Pokemon.csproj",
+              "ToolTip": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Pokemon.csproj",
+              "RelativeToolTip": "Pokemon\\Pokemon.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-05T17:24:12.939Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Pokemon\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form1.Designer.cs",
-              "RelativeToolTip": "Pokemon\\Form1.Designer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswMAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:04:41.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form2.cs",
-              "RelativeDocumentMoniker": "Pokemon\\Form2.cs",
-              "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form2.cs",
-              "RelativeToolTip": "Pokemon\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Battle.cs",
+              "DocumentMoniker": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Battle.cs",
+              "RelativeDocumentMoniker": "Pokemon\\Battle.cs",
+              "ToolTip": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Battle.cs",
+              "RelativeToolTip": "Pokemon\\Battle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T15:14:45.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form2.cs",
-              "RelativeDocumentMoniker": "Pokemon\\Form2.cs",
-              "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form2.cs [Design]",
-              "RelativeToolTip": "Pokemon\\Form2.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Battle.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Battle.cs",
+              "RelativeDocumentMoniker": "Pokemon\\Battle.cs",
+              "ToolTip": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Battle.cs [Design]",
+              "RelativeToolTip": "Pokemon\\Battle.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T15:14:37.191Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Character.cs",
+              "DocumentMoniker": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Character.cs",
               "RelativeDocumentMoniker": "Pokemon\\Character.cs",
-              "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Character.cs",
+              "ToolTip": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Character.cs",
               "RelativeToolTip": "Pokemon\\Character.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T01:51:54.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Move.cs",
-              "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Move.cs",
-              "RelativeDocumentMoniker": "Pokemon\\Move.cs",
-              "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Move.cs",
-              "RelativeToolTip": "Pokemon\\Move.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:33:38.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Form1.cs",
               "RelativeDocumentMoniker": "Pokemon\\Form1.cs",
-              "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form1.cs",
+              "ToolTip": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Form1.cs",
               "RelativeToolTip": "Pokemon\\Form1.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBQAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T01:20:10.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Form1.cs",
               "RelativeDocumentMoniker": "Pokemon\\Form1.cs",
-              "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Ethan\\Documents\\GitHub\\Big-program\\Pokemon\\Pokemon\\Form1.cs [Design]",
               "RelativeToolTip": "Pokemon\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T23:45:27.04Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }

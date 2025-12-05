@@ -32,3 +32,4 @@ C:\Users\Teiga\OneDrive - Durham College\Documents\Big-program\Pokemon\Pokemon\o
 C:\Users\Teiga\OneDrive - Durham College\Documents\Big-program\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
 C:\Users\Teiga\OneDrive - Durham College\Documents\Big-program\Pokemon\Pokemon\obj\Debug\Pokemon.exe
 C:\Users\Teiga\OneDrive - Durham College\Documents\Big-program\Pokemon\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\Ethan\Documents\GitHub\Big-program\Pokemon\Pokemon\obj\Debug\Pokemon.Battle.resources
