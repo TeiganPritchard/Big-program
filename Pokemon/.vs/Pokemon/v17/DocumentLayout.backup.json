@@ -11,15 +11,15 @@
       "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Pokemon||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|c:\\users\\teiga\\onedrive - durham college\\documents\\big-program\\pokemon\\pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|solutionrelative:pokemon\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Pokemon||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B4C3344-3950-47C4-B298-64B8031F1637}|Pokemon\\Pokemon.csproj|c:\\users\\teiga\\onedrive - durham college\\documents\\big-program\\pokemon\\pokemon\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -47,14 +47,14 @@
               "RelativeDocumentMoniker": "Pokemon\\Character.cs",
               "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Character.cs",
               "RelativeToolTip": "Pokemon\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T01:51:54.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Pokemon",
               "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Pokemon.csproj",
               "RelativeDocumentMoniker": "Pokemon\\Pokemon.csproj",
@@ -72,14 +72,14 @@
               "RelativeDocumentMoniker": "Pokemon\\Move.cs",
               "ToolTip": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Move.cs",
               "RelativeToolTip": "Pokemon\\Move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T01:33:38.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form1.cs",
               "RelativeDocumentMoniker": "Pokemon\\Form1.cs",
@@ -92,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Teiga\\OneDrive - Durham College\\Documents\\Big-program\\Pokemon\\Pokemon\\Form1.cs",
               "RelativeDocumentMoniker": "Pokemon\\Form1.cs",
