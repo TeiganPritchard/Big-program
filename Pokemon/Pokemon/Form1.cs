@@ -16,11 +16,12 @@ namespace Pokemon
         public Form1()
         {
             InitializeComponent();
+            Character mage = new Character("Mage", 20, 2, 50, Properties.Resources.Mage);
         }
 
         private void StartBattleButton_Click(object sender, EventArgs e)
         {
-            
+            Battle battle = new Battle()
 
         }
     }

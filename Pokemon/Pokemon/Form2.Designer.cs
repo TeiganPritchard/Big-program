@@ -1,6 +1,6 @@
 ﻿namespace Pokemon
 {
-    partial class Form2
+    partial class Battle
     {
         /// <summary>
         /// Required designer variable.
@@ -62,13 +62,13 @@
             this.playingFieldTable.Size = new System.Drawing.Size(973, 477);
             this.playingFieldTable.TabIndex = 0;
             // 
-            // Form2
+            // Battle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(979, 661);
             this.Controls.Add(this.baseLayoutTable);
-            this.Name = "Form2";
+            this.Name = "Battle";
             this.Text = "Form2";
             this.baseLayoutTable.ResumeLayout(false);
             this.ResumeLayout(false);

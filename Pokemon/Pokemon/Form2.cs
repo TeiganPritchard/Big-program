@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Pokemon
 {
-    public partial class Form2 : Form
+    public partial class Battle : Form
     {
-        public Form2()
-        {
-            InitializeComponent();
+        public Battle(Character character1, Character character2, Character character3, Character boss)
+        { 
+
         }
 
     }
