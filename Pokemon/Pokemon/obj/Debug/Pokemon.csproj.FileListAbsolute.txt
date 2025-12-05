@@ -1,0 +1,11 @@
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.Form1.resources
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\bin\Debug\Pokemon.exe.config
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\bin\Debug\Pokemon.exe
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\bin\Debug\Pokemon.pdb
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.exe
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\Teiga\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.exe.config
