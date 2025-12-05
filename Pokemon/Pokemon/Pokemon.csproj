@@ -106,5 +106,17 @@
   <ItemGroup>
     <None Include="Resources\pngaaa.com-2451541.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healer-6692464_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rogue-svgrepo-com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Google-Noto-Emoji-Animals-Nature-22287-dragon.512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knight.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

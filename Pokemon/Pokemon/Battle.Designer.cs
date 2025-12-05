@@ -32,35 +32,35 @@
             this.baseLayoutTable = new System.Windows.Forms.TableLayoutPanel();
             this.playingFieldTable = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.character2 = new System.Windows.Forms.PictureBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.character1 = new System.Windows.Forms.PictureBox();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
-            this.character3 = new System.Windows.Forms.PictureBox();
+            this.character4HP = new System.Windows.Forms.ProgressBar();
+            this.character3HP = new System.Windows.Forms.ProgressBar();
             this.character4 = new System.Windows.Forms.PictureBox();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
-            this.progressBar4 = new System.Windows.Forms.ProgressBar();
+            this.character3 = new System.Windows.Forms.PictureBox();
+            this.character2HP = new System.Windows.Forms.ProgressBar();
+            this.character1 = new System.Windows.Forms.PictureBox();
+            this.character1HP = new System.Windows.Forms.ProgressBar();
+            this.character2 = new System.Windows.Forms.PictureBox();
             this.bossPicture = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.move4Button = new System.Windows.Forms.Button();
+            this.move3Button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.move1Button = new System.Windows.Forms.Button();
             this.move2Button = new System.Windows.Forms.Button();
-            this.move3Button = new System.Windows.Forms.Button();
-            this.move4Button = new System.Windows.Forms.Button();
+            this.move1Button = new System.Windows.Forms.Button();
             this.baseLayoutTable.SuspendLayout();
             this.playingFieldTable.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.character2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.character1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.character3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.character4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.character3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.character1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.character2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bossPicture)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // baseLayoutTable
@@ -99,13 +99,13 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.progressBar4, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar3, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.character4HP, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.character3HP, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.character4, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.character3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar2, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.character2HP, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.character1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.progressBar1, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.character1HP, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.character2, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
@@ -118,26 +118,57 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(480, 471);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // character2
+            // character4HP
             // 
-            this.character2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.character2.Image = global::Pokemon.Properties.Resources.Mage;
-            this.character2.Location = new System.Drawing.Point(243, 3);
-            this.character2.Name = "character2";
-            this.character2.Size = new System.Drawing.Size(234, 173);
-            this.character2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.character2.TabIndex = 7;
-            this.character2.TabStop = false;
+            this.character4HP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.character4HP.ForeColor = System.Drawing.Color.LawnGreen;
+            this.character4HP.Location = new System.Drawing.Point(243, 416);
+            this.character4HP.Name = "character4HP";
+            this.character4HP.Size = new System.Drawing.Size(234, 52);
+            this.character4HP.TabIndex = 15;
+            this.character4HP.Value = 50;
             // 
-            // progressBar1
+            // character3HP
             // 
-            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar1.ForeColor = System.Drawing.Color.LawnGreen;
-            this.progressBar1.Location = new System.Drawing.Point(3, 182);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(234, 49);
-            this.progressBar1.TabIndex = 9;
-            this.progressBar1.Value = 50;
+            this.character3HP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.character3HP.ForeColor = System.Drawing.Color.LawnGreen;
+            this.character3HP.Location = new System.Drawing.Point(3, 416);
+            this.character3HP.Name = "character3HP";
+            this.character3HP.Size = new System.Drawing.Size(234, 52);
+            this.character3HP.TabIndex = 14;
+            this.character3HP.Value = 50;
+            // 
+            // character4
+            // 
+            this.character4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.character4.Image = global::Pokemon.Properties.Resources.Mage;
+            this.character4.Location = new System.Drawing.Point(243, 236);
+            this.character4.Name = "character4";
+            this.character4.Size = new System.Drawing.Size(234, 174);
+            this.character4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.character4.TabIndex = 13;
+            this.character4.TabStop = false;
+            // 
+            // character3
+            // 
+            this.character3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.character3.Image = global::Pokemon.Properties.Resources.Mage;
+            this.character3.Location = new System.Drawing.Point(3, 236);
+            this.character3.Name = "character3";
+            this.character3.Size = new System.Drawing.Size(234, 174);
+            this.character3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.character3.TabIndex = 12;
+            this.character3.TabStop = false;
+            // 
+            // character2HP
+            // 
+            this.character2HP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.character2HP.ForeColor = System.Drawing.Color.LawnGreen;
+            this.character2HP.Location = new System.Drawing.Point(243, 182);
+            this.character2HP.Name = "character2HP";
+            this.character2HP.Size = new System.Drawing.Size(234, 48);
+            this.character2HP.TabIndex = 11;
+            this.character2HP.Value = 50;
             // 
             // character1
             // 
@@ -150,57 +181,26 @@
             this.character1.TabIndex = 10;
             this.character1.TabStop = false;
             // 
-            // progressBar2
+            // character1HP
             // 
-            this.progressBar2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar2.ForeColor = System.Drawing.Color.LawnGreen;
-            this.progressBar2.Location = new System.Drawing.Point(243, 182);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(234, 49);
-            this.progressBar2.TabIndex = 11;
-            this.progressBar2.Value = 50;
+            this.character1HP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.character1HP.ForeColor = System.Drawing.Color.LawnGreen;
+            this.character1HP.Location = new System.Drawing.Point(3, 182);
+            this.character1HP.Name = "character1HP";
+            this.character1HP.Size = new System.Drawing.Size(234, 48);
+            this.character1HP.TabIndex = 9;
+            this.character1HP.Value = 50;
             // 
-            // character3
+            // character2
             // 
-            this.character3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.character3.Image = global::Pokemon.Properties.Resources.Mage;
-            this.character3.Location = new System.Drawing.Point(3, 237);
-            this.character3.Name = "character3";
-            this.character3.Size = new System.Drawing.Size(234, 175);
-            this.character3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.character3.TabIndex = 12;
-            this.character3.TabStop = false;
-            // 
-            // character4
-            // 
-            this.character4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.character4.Image = global::Pokemon.Properties.Resources.Mage;
-            this.character4.Location = new System.Drawing.Point(243, 237);
-            this.character4.Name = "character4";
-            this.character4.Size = new System.Drawing.Size(234, 175);
-            this.character4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.character4.TabIndex = 13;
-            this.character4.TabStop = false;
-            // 
-            // progressBar3
-            // 
-            this.progressBar3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar3.ForeColor = System.Drawing.Color.LawnGreen;
-            this.progressBar3.Location = new System.Drawing.Point(3, 418);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(234, 50);
-            this.progressBar3.TabIndex = 14;
-            this.progressBar3.Value = 50;
-            // 
-            // progressBar4
-            // 
-            this.progressBar4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.progressBar4.ForeColor = System.Drawing.Color.LawnGreen;
-            this.progressBar4.Location = new System.Drawing.Point(243, 418);
-            this.progressBar4.Name = "progressBar4";
-            this.progressBar4.Size = new System.Drawing.Size(234, 50);
-            this.progressBar4.TabIndex = 15;
-            this.progressBar4.Value = 50;
+            this.character2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.character2.Image = global::Pokemon.Properties.Resources.Mage;
+            this.character2.Location = new System.Drawing.Point(243, 3);
+            this.character2.Name = "character2";
+            this.character2.Size = new System.Drawing.Size(234, 173);
+            this.character2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.character2.TabIndex = 7;
+            this.character2.TabStop = false;
             // 
             // bossPicture
             // 
@@ -230,6 +230,43 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 73.83721F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(973, 172);
             this.tableLayoutPanel2.TabIndex = 1;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Controls.Add(this.move4Button, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.move3Button, 0, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(489, 48);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(481, 121);
+            this.tableLayoutPanel4.TabIndex = 3;
+            // 
+            // move4Button
+            // 
+            this.move4Button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.move4Button.ForeColor = System.Drawing.Color.Black;
+            this.move4Button.Location = new System.Drawing.Point(243, 3);
+            this.move4Button.Name = "move4Button";
+            this.move4Button.Size = new System.Drawing.Size(235, 115);
+            this.move4Button.TabIndex = 8;
+            this.move4Button.Text = "Move 4";
+            this.move4Button.UseVisualStyleBackColor = true;
+            // 
+            // move3Button
+            // 
+            this.move3Button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.move3Button.ForeColor = System.Drawing.Color.Black;
+            this.move3Button.Location = new System.Drawing.Point(3, 3);
+            this.move3Button.Name = "move3Button";
+            this.move3Button.Size = new System.Drawing.Size(234, 115);
+            this.move3Button.TabIndex = 7;
+            this.move3Button.Text = "Move3";
+            this.move3Button.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -270,32 +307,6 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(480, 121);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 2;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.move4Button, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.move3Button, 0, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(489, 48);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(481, 121);
-            this.tableLayoutPanel4.TabIndex = 3;
-            // 
-            // move1Button
-            // 
-            this.move1Button.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.move1Button.ForeColor = System.Drawing.Color.Black;
-            this.move1Button.Location = new System.Drawing.Point(3, 3);
-            this.move1Button.Name = "move1Button";
-            this.move1Button.Size = new System.Drawing.Size(234, 115);
-            this.move1Button.TabIndex = 7;
-            this.move1Button.Text = "Move 1";
-            this.move1Button.UseVisualStyleBackColor = true;
-            // 
             // move2Button
             // 
             this.move2Button.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -307,27 +318,16 @@
             this.move2Button.Text = "Move 2";
             this.move2Button.UseVisualStyleBackColor = true;
             // 
-            // move3Button
+            // move1Button
             // 
-            this.move3Button.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.move3Button.ForeColor = System.Drawing.Color.Black;
-            this.move3Button.Location = new System.Drawing.Point(3, 3);
-            this.move3Button.Name = "move3Button";
-            this.move3Button.Size = new System.Drawing.Size(234, 115);
-            this.move3Button.TabIndex = 7;
-            this.move3Button.Text = "Move3";
-            this.move3Button.UseVisualStyleBackColor = true;
-            // 
-            // move4Button
-            // 
-            this.move4Button.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.move4Button.ForeColor = System.Drawing.Color.Black;
-            this.move4Button.Location = new System.Drawing.Point(243, 3);
-            this.move4Button.Name = "move4Button";
-            this.move4Button.Size = new System.Drawing.Size(235, 115);
-            this.move4Button.TabIndex = 8;
-            this.move4Button.Text = "Move 4";
-            this.move4Button.UseVisualStyleBackColor = true;
+            this.move1Button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.move1Button.ForeColor = System.Drawing.Color.Black;
+            this.move1Button.Location = new System.Drawing.Point(3, 3);
+            this.move1Button.Name = "move1Button";
+            this.move1Button.Size = new System.Drawing.Size(234, 115);
+            this.move1Button.TabIndex = 7;
+            this.move1Button.Text = "Move 1";
+            this.move1Button.UseVisualStyleBackColor = true;
             // 
             // Battle
             // 
@@ -345,15 +345,15 @@
             this.baseLayoutTable.ResumeLayout(false);
             this.playingFieldTable.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.character2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.character1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.character3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.character4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.character3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.character1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.character2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bossPicture)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -363,13 +363,13 @@
         private System.Windows.Forms.TableLayoutPanel baseLayoutTable;
         private System.Windows.Forms.TableLayoutPanel playingFieldTable;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.ProgressBar progressBar4;
-        private System.Windows.Forms.ProgressBar progressBar3;
+        private System.Windows.Forms.ProgressBar character4HP;
+        private System.Windows.Forms.ProgressBar character3HP;
         private System.Windows.Forms.PictureBox character4;
         private System.Windows.Forms.PictureBox character3;
-        private System.Windows.Forms.ProgressBar progressBar2;
+        private System.Windows.Forms.ProgressBar character2HP;
         private System.Windows.Forms.PictureBox character1;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar character1HP;
         private System.Windows.Forms.PictureBox character2;
         private System.Windows.Forms.PictureBox bossPicture;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;

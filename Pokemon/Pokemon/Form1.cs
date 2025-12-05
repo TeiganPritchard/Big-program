@@ -20,14 +20,24 @@ namespace Pokemon
         public Form1()
         {
             InitializeComponent();
-            Character mage = new Character("Mage", 40, 2, 50, Properties.Resources.Mage);
-            Character warrior = new Character("Warrior", 15, 20, 100, Properties.Resources.Warrior);
+            Character mage = new Character("Mage", 40, 2, 100, Properties.Resources.Mage);
+            Character warrior = new Character("Warrior", 15, 20, 200, Properties.Resources.Warrior);
+            Character priest = new Character("Priest",5,8,100,Properties.Resources.Priest);
+            Character rogue = new Character("Rogue", 30, 10, 150,Properties.Resources.Rogue);
 
 
-            Character ogre = new Character("Ogre", 15, 15, 6000, Properties.Resources.Ogre);
+            Character knight = new Character("Knight", 10, 30, 1500,Properties.Resources.Knight);
+            Character ogre = new Character("Ogre", 15, 15, 3000, Properties.Resources.Ogre);
+            Character dragon = new Character("Dragon", 30, 15, 2000, Properties.Resources.Dragon);
 
             characterList.Add(mage);
             characterList.Add(warrior);
+            characterList.Add(priest);
+            characterList.Add(rogue);
+
+            bosses[0] = knight;
+            bosses[1] = ogre;
+            bosses[2] = dragon;
 
             CharacterListing.DataSource = characterList;
             currentParty.DataSource = party;

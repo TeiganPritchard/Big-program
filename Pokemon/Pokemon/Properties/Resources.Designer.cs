@@ -63,6 +63,26 @@ namespace Pokemon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Dragon {
+            get {
+                object obj = ResourceManager.GetObject("Dragon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Knight {
+            get {
+                object obj = ResourceManager.GetObject("Knight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mage {
             get {
                 object obj = ResourceManager.GetObject("Mage", resourceCulture);
@@ -76,6 +96,26 @@ namespace Pokemon.Properties {
         internal static System.Drawing.Bitmap Ogre {
             get {
                 object obj = ResourceManager.GetObject("Ogre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Priest {
+            get {
+                object obj = ResourceManager.GetObject("Priest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rogue {
+            get {
+                object obj = ResourceManager.GetObject("Rogue", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
