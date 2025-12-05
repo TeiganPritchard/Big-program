@@ -32,15 +32,14 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.StartBattleButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Img = new System.Windows.Forms.DataGridViewImageColumn();
-            this.PokemonName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CharacterListing = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.CharacterName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterListing)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -76,9 +75,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.CharacterListing);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(3, 89);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(517, 304);
@@ -86,44 +85,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select Character";
             // 
-            // dataGridView1
+            // CharacterListing
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeColumns = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Crimson;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Img,
-            this.PokemonName});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 18);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(511, 283);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // Img
-            // 
-            this.Img.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.Img.HeaderText = "Image";
-            this.Img.MinimumWidth = 6;
-            this.Img.Name = "Img";
-            this.Img.ReadOnly = true;
-            this.Img.Width = 51;
-            // 
-            // PokemonName
-            // 
-            this.PokemonName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.PokemonName.HeaderText = "Name";
-            this.PokemonName.MinimumWidth = 6;
-            this.PokemonName.Name = "PokemonName";
-            this.PokemonName.ReadOnly = true;
+            this.CharacterListing.AllowUserToAddRows = false;
+            this.CharacterListing.AllowUserToDeleteRows = false;
+            this.CharacterListing.AllowUserToResizeColumns = false;
+            this.CharacterListing.AllowUserToResizeRows = false;
+            this.CharacterListing.BackgroundColor = System.Drawing.Color.Crimson;
+            this.CharacterListing.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.CharacterListing.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.CharacterName});
+            this.CharacterListing.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CharacterListing.EnableHeadersVisualStyles = false;
+            this.CharacterListing.Location = new System.Drawing.Point(3, 18);
+            this.CharacterListing.MultiSelect = false;
+            this.CharacterListing.Name = "CharacterListing";
+            this.CharacterListing.ReadOnly = true;
+            this.CharacterListing.RowHeadersVisible = false;
+            this.CharacterListing.RowHeadersWidth = 51;
+            this.CharacterListing.RowTemplate.Height = 24;
+            this.CharacterListing.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.CharacterListing.Size = new System.Drawing.Size(511, 283);
+            this.CharacterListing.TabIndex = 0;
             // 
             // tableLayoutPanel2
             // 
@@ -165,6 +148,15 @@
             this.label1.Text = "Battlemon";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // CharacterName
+            // 
+            this.CharacterName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CharacterName.DataPropertyName = "CharacterName";
+            this.CharacterName.HeaderText = "Name";
+            this.CharacterName.MinimumWidth = 6;
+            this.CharacterName.Name = "CharacterName";
+            this.CharacterName.ReadOnly = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -181,7 +173,7 @@
             this.Text = "Battlemon - Teigan Pritchard, Ethan Smallwood";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CharacterListing)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -196,10 +188,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView CharacterListing;
         private System.Windows.Forms.Button StartBattleButton;
-        private System.Windows.Forms.DataGridViewImageColumn Img;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PokemonName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CharacterName;
     }
 }
 

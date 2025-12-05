@@ -50,7 +50,10 @@ namespace Pokemon
             return 0;
         }
 
-        
+        //public static int heal(int HP)
+        //{
+
+        //}
 
 
     }

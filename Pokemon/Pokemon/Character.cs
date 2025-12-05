@@ -9,15 +9,15 @@ namespace Pokemon
 {
     public class Character
     {
-        private string name;
+        private string characterName;
         private int atk;
         private int hP;
         private int def;
-        private Image image;
-        public string Name
+        public Image image;
+        public string CharacterName
         {
-            get { return name; }
-            set { name = value; }
+            get { return characterName; }
+            set { characterName = value; }
         }
         public int Atk
         {
@@ -34,20 +34,20 @@ namespace Pokemon
             get { return def; }
             set { def = value; }
         }
-        public Image Image
-        {
-            get { return image; }
-            set { image = value; }
-        }
+        //public Image Image
+        //{
+        //    get { return image; }
+        //    set { image = value; }
+        //}
 
         public Character(string name, int atk, int def, int hP, Image image)
         {
 
-            this.Name = name;
-            this.atk = atk;
+            this.CharacterName = name;
+            this.Atk = atk;
             this.HP = hP;
             this.Def = def;
-            this.Image = image;
+            this.image = image;
 
         }
     }
