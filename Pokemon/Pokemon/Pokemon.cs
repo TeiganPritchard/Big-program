@@ -30,17 +30,11 @@ namespace Pokemon
 
         public BindingList<Move> Moves { get; set; }
 
-        public Pokemon( string Name, PokemonType PrimaryType, PokemonType SecondaryType, 
-            int HP,  int Attack, int Defense, int SpecialAttack, 
-            int SpecialDefense, int Speed, BindingList<Move> Moves ) { 
+        public Pokemon( string Name, int HP,  int Attack, int Defense, int Speed, BindingList<Move> Moves ) { 
             this.Name = Name;
-            this.PrimaryType = PrimaryType;
-            this.SecondaryType = SecondaryType;
             this.HP = HP;
             this.Attack = Attack;
             this.Defense = Defense;
-            this.SpecialAttack = SpecialAttack;
-            this.SpecialDefense = SpecialDefense;
             this.Speed = Speed;
             this.Moves = Moves ?? new BindingList<Move>();
 

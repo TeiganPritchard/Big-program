@@ -63,9 +63,9 @@ namespace Pokemon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PokeBall {
+        internal static System.Drawing.Bitmap Mage {
             get {
-                object obj = ResourceManager.GetObject("PokeBall", resourceCulture);
+                object obj = ResourceManager.GetObject("Mage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

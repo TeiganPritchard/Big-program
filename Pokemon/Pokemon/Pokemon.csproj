@@ -86,5 +86,11 @@
   <ItemGroup>
     <None Include="Resources\pokeball-transparent-png-2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft-Fluentui-Emoji-Mono-Man-Mage-Default.128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft-Fluentui-Emoji-3d-Man-Mage-3d-Light.128.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
