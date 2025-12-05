@@ -32,7 +32,7 @@ namespace Pokemon
                 new PokemonType("Dragon")
             };
         public BindingList<Pokemon> Pokedex = new BindingList<Pokemon>(
-            new Pokemon("Bulbasaur", pokemonTypezzzzs, );
+            new Pokemon("Bulbasaur", pokemonType, );
         
 
         public Form1()

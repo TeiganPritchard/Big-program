@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Pokemon
 {
     public class Pokemon
-    {}
+    {
 
         public string Name { get; set; }
 
