@@ -14,6 +14,9 @@ namespace Pokemon
         private int hP;
         private int def;
         public Image image;
+        public List<GameMove> moves = new List<GameMove>();
+
+
         public string CharacterName
         {
             get { return characterName; }
@@ -49,6 +52,12 @@ namespace Pokemon
             this.Def = def;
             this.image = image;
 
+        }
+        public Character(string name, int hP, Image image)
+        {
+            this.CharacterName = name;
+            this.HP = hP;
+            this.image = image;
         }
     }
 }

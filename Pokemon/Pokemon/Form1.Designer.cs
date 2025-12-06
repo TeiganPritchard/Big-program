@@ -31,34 +31,34 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.currentParty = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.CharacterListing = new System.Windows.Forms.DataGridView();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.StartBattleButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.CharacterName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Atk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Def = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Attack = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Defense = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Health = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.CharacterListing = new System.Windows.Forms.DataGridView();
+            this.CharacterName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Atk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Def = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HP = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.StartBattleButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.currentParty)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CharacterListing)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -93,6 +93,17 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(517, 80);
             this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Pokemon.Properties.Resources.Mage;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 74);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -159,6 +170,42 @@
             this.currentParty.Size = new System.Drawing.Size(247, 277);
             this.currentParty.TabIndex = 0;
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "CharacterName";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Name";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // Attack
+            // 
+            this.Attack.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Attack.DataPropertyName = "Atk";
+            this.Attack.HeaderText = "Atk";
+            this.Attack.MinimumWidth = 6;
+            this.Attack.Name = "Attack";
+            this.Attack.ReadOnly = true;
+            // 
+            // Defense
+            // 
+            this.Defense.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Defense.DataPropertyName = "Def";
+            this.Defense.HeaderText = "Def";
+            this.Defense.MinimumWidth = 6;
+            this.Defense.Name = "Defense";
+            this.Defense.ReadOnly = true;
+            // 
+            // Health
+            // 
+            this.Health.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Health.DataPropertyName = "HP";
+            this.Health.HeaderText = "HP";
+            this.Health.MinimumWidth = 6;
+            this.Health.Name = "Health";
+            this.Health.ReadOnly = true;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.CharacterListing);
@@ -197,70 +244,6 @@
             this.CharacterListing.Size = new System.Drawing.Size(246, 277);
             this.CharacterListing.TabIndex = 0;
             // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 3;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.Controls.Add(this.button2, 2, 0);
-            this.tableLayoutPanel4.Controls.Add(this.button1, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.StartBattleButton, 0, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 399);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(517, 48);
-            this.tableLayoutPanel4.TabIndex = 6;
-            // 
-            // StartBattleButton
-            // 
-            this.StartBattleButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StartBattleButton.ForeColor = System.Drawing.Color.Black;
-            this.StartBattleButton.Location = new System.Drawing.Point(3, 3);
-            this.StartBattleButton.Name = "StartBattleButton";
-            this.StartBattleButton.Size = new System.Drawing.Size(166, 42);
-            this.StartBattleButton.TabIndex = 5;
-            this.StartBattleButton.Text = "Add to Party";
-            this.StartBattleButton.UseVisualStyleBackColor = true;
-            this.StartBattleButton.Click += new System.EventHandler(this.ClickAddToParty);
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(175, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 42);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "FIGHT!";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.FightClick);
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(347, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(167, 42);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Remove From Party";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.ClickRemoveButton);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Pokemon.Properties.Resources.Mage;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 74);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // CharacterName
             // 
             this.CharacterName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -297,41 +280,58 @@
             this.HP.Name = "HP";
             this.HP.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn1
+            // tableLayoutPanel4
             // 
-            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "CharacterName";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Name";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.tableLayoutPanel4.ColumnCount = 3;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.Controls.Add(this.button2, 2, 0);
+            this.tableLayoutPanel4.Controls.Add(this.button1, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.StartBattleButton, 0, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 399);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(517, 48);
+            this.tableLayoutPanel4.TabIndex = 6;
             // 
-            // Attack
+            // button2
             // 
-            this.Attack.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Attack.DataPropertyName = "Atk";
-            this.Attack.HeaderText = "Atk";
-            this.Attack.MinimumWidth = 6;
-            this.Attack.Name = "Attack";
-            this.Attack.ReadOnly = true;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(347, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(167, 42);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Remove From Party";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.ClickRemoveButton);
             // 
-            // Defense
+            // button1
             // 
-            this.Defense.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Defense.DataPropertyName = "Def";
-            this.Defense.HeaderText = "Def";
-            this.Defense.MinimumWidth = 6;
-            this.Defense.Name = "Defense";
-            this.Defense.ReadOnly = true;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(175, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(166, 42);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "FIGHT!";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.FightClick);
             // 
-            // Health
+            // StartBattleButton
             // 
-            this.Health.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Health.DataPropertyName = "HP";
-            this.Health.HeaderText = "HP";
-            this.Health.MinimumWidth = 6;
-            this.Health.Name = "Health";
-            this.Health.ReadOnly = true;
+            this.StartBattleButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.StartBattleButton.ForeColor = System.Drawing.Color.Black;
+            this.StartBattleButton.Location = new System.Drawing.Point(3, 3);
+            this.StartBattleButton.Name = "StartBattleButton";
+            this.StartBattleButton.Size = new System.Drawing.Size(166, 42);
+            this.StartBattleButton.TabIndex = 5;
+            this.StartBattleButton.Text = "Add to Party";
+            this.StartBattleButton.UseVisualStyleBackColor = true;
+            this.StartBattleButton.Click += new System.EventHandler(this.ClickAddToParty);
             // 
             // Form1
             // 
@@ -350,13 +350,13 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.currentParty)).EndInit();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.CharacterListing)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

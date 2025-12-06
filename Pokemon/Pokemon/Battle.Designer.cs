@@ -41,13 +41,12 @@
             this.character1HP = new System.Windows.Forms.ProgressBar();
             this.character2 = new System.Windows.Forms.PictureBox();
             this.bossPicture = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.move4Button = new System.Windows.Forms.Button();
-            this.move3Button = new System.Windows.Forms.Button();
+            this.layoutpane = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.buttons = new System.Windows.Forms.TableLayoutPanel();
+            this.move4Button = new System.Windows.Forms.Button();
+            this.move3Button = new System.Windows.Forms.Button();
             this.move2Button = new System.Windows.Forms.Button();
             this.move1Button = new System.Windows.Forms.Button();
             this.baseLayoutTable.SuspendLayout();
@@ -58,9 +57,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.character1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.character2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bossPicture)).BeginInit();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
+            this.layoutpane.SuspendLayout();
+            this.buttons.SuspendLayout();
             this.SuspendLayout();
             // 
             // baseLayoutTable
@@ -69,7 +67,7 @@
             this.baseLayoutTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.baseLayoutTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.baseLayoutTable.Controls.Add(this.playingFieldTable, 0, 0);
-            this.baseLayoutTable.Controls.Add(this.tableLayoutPanel2, 0, 1);
+            this.baseLayoutTable.Controls.Add(this.layoutpane, 0, 1);
             this.baseLayoutTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.baseLayoutTable.Location = new System.Drawing.Point(0, 0);
             this.baseLayoutTable.Name = "baseLayoutTable";
@@ -213,60 +211,22 @@
             this.bossPicture.TabIndex = 1;
             this.bossPicture.TabStop = false;
             // 
-            // tableLayoutPanel2
+            // layoutpane
             // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.label2, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 486);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.16279F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 73.83721F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(973, 172);
-            this.tableLayoutPanel2.TabIndex = 1;
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 2;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.move4Button, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.move3Button, 0, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(489, 48);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(481, 121);
-            this.tableLayoutPanel4.TabIndex = 3;
-            // 
-            // move4Button
-            // 
-            this.move4Button.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.move4Button.ForeColor = System.Drawing.Color.Black;
-            this.move4Button.Location = new System.Drawing.Point(243, 3);
-            this.move4Button.Name = "move4Button";
-            this.move4Button.Size = new System.Drawing.Size(235, 115);
-            this.move4Button.TabIndex = 8;
-            this.move4Button.Text = "Move 4";
-            this.move4Button.UseVisualStyleBackColor = true;
-            // 
-            // move3Button
-            // 
-            this.move3Button.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.move3Button.ForeColor = System.Drawing.Color.Black;
-            this.move3Button.Location = new System.Drawing.Point(3, 3);
-            this.move3Button.Name = "move3Button";
-            this.move3Button.Size = new System.Drawing.Size(234, 115);
-            this.move3Button.TabIndex = 7;
-            this.move3Button.Text = "Move3";
-            this.move3Button.UseVisualStyleBackColor = true;
+            this.layoutpane.ColumnCount = 2;
+            this.layoutpane.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.layoutpane.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.layoutpane.Controls.Add(this.label1, 0, 0);
+            this.layoutpane.Controls.Add(this.label2, 1, 0);
+            this.layoutpane.Controls.Add(this.buttons, 0, 1);
+            this.layoutpane.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutpane.Location = new System.Drawing.Point(3, 486);
+            this.layoutpane.Name = "layoutpane";
+            this.layoutpane.RowCount = 2;
+            this.layoutpane.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.16279F));
+            this.layoutpane.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 73.83721F));
+            this.layoutpane.Size = new System.Drawing.Size(973, 172);
+            this.layoutpane.TabIndex = 1;
             // 
             // label1
             // 
@@ -290,33 +250,62 @@
             this.label2.Text = "Action bar -- \"this guy did dmg\"";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tableLayoutPanel3
+            // buttons
             // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.move2Button, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.move1Button, 0, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 48);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(480, 121);
-            this.tableLayoutPanel3.TabIndex = 2;
+            this.buttons.ColumnCount = 4;
+            this.layoutpane.SetColumnSpan(this.buttons, 2);
+            this.buttons.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.buttons.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.buttons.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.buttons.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.buttons.Controls.Add(this.move4Button, 3, 0);
+            this.buttons.Controls.Add(this.move3Button, 2, 0);
+            this.buttons.Controls.Add(this.move2Button, 1, 0);
+            this.buttons.Controls.Add(this.move1Button, 0, 0);
+            this.buttons.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttons.Location = new System.Drawing.Point(3, 48);
+            this.buttons.Name = "buttons";
+            this.buttons.RowCount = 1;
+            this.buttons.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.buttons.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.buttons.Size = new System.Drawing.Size(967, 121);
+            this.buttons.TabIndex = 2;
+            // 
+            // move4Button
+            // 
+            this.move4Button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.move4Button.ForeColor = System.Drawing.Color.Black;
+            this.move4Button.Location = new System.Drawing.Point(726, 3);
+            this.move4Button.Name = "move4Button";
+            this.move4Button.Size = new System.Drawing.Size(238, 115);
+            this.move4Button.TabIndex = 11;
+            this.move4Button.Text = "Move 4";
+            this.move4Button.UseVisualStyleBackColor = true;
+            this.move4Button.Click += new System.EventHandler(this.PressAnyButton);
+            // 
+            // move3Button
+            // 
+            this.move3Button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.move3Button.ForeColor = System.Drawing.Color.Black;
+            this.move3Button.Location = new System.Drawing.Point(485, 3);
+            this.move3Button.Name = "move3Button";
+            this.move3Button.Size = new System.Drawing.Size(235, 115);
+            this.move3Button.TabIndex = 10;
+            this.move3Button.Text = "Move 3";
+            this.move3Button.UseVisualStyleBackColor = true;
+            this.move3Button.Click += new System.EventHandler(this.PressAnyButton);
             // 
             // move2Button
             // 
             this.move2Button.Dock = System.Windows.Forms.DockStyle.Fill;
             this.move2Button.ForeColor = System.Drawing.Color.Black;
-            this.move2Button.Location = new System.Drawing.Point(243, 3);
+            this.move2Button.Location = new System.Drawing.Point(244, 3);
             this.move2Button.Name = "move2Button";
-            this.move2Button.Size = new System.Drawing.Size(234, 115);
-            this.move2Button.TabIndex = 8;
+            this.move2Button.Size = new System.Drawing.Size(235, 115);
+            this.move2Button.TabIndex = 9;
             this.move2Button.Text = "Move 2";
             this.move2Button.UseVisualStyleBackColor = true;
+            this.move2Button.Click += new System.EventHandler(this.PressAnyButton);
             // 
             // move1Button
             // 
@@ -324,10 +313,11 @@
             this.move1Button.ForeColor = System.Drawing.Color.Black;
             this.move1Button.Location = new System.Drawing.Point(3, 3);
             this.move1Button.Name = "move1Button";
-            this.move1Button.Size = new System.Drawing.Size(234, 115);
-            this.move1Button.TabIndex = 7;
+            this.move1Button.Size = new System.Drawing.Size(235, 115);
+            this.move1Button.TabIndex = 8;
             this.move1Button.Text = "Move 1";
             this.move1Button.UseVisualStyleBackColor = true;
+            this.move1Button.Click += new System.EventHandler(this.PressAnyButton);
             // 
             // Battle
             // 
@@ -350,10 +340,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.character1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.character2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bossPicture)).EndInit();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
+            this.layoutpane.ResumeLayout(false);
+            this.layoutpane.PerformLayout();
+            this.buttons.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -372,11 +361,10 @@
         private System.Windows.Forms.ProgressBar character1HP;
         private System.Windows.Forms.PictureBox character2;
         private System.Windows.Forms.PictureBox bossPicture;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TableLayoutPanel layoutpane;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TableLayoutPanel buttons;
         private System.Windows.Forms.Button move4Button;
         private System.Windows.Forms.Button move3Button;
         private System.Windows.Forms.Button move2Button;
